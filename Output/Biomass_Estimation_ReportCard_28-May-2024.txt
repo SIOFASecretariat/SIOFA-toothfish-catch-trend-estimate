@@ -1,0 +1,39 @@
+Biomass Estimation Report Card
+Date: 28-May-2024
+--------------------------------------------
+
+###Data Processing start###########################
+
+#Catch data:
+Missing datetime_set_start: 0 records without datetime_set_start
+Missing datetime_set_end: 90 records without datetime_set_end
+datetime_set_end<datetime_set_start: 3 records with datetime_set_end<datetime_set_start
+Missing longitude_set_start: 0 records removed
+Missing latitude_set_start: 0 records removed
+Missing longitude_set_end: 0 records removed
+Missing latitude_set_end: 0 records removed
+Missing greenweight_caught_kg: 0 records replaced by zero
+
+#Length-Weight data:
+Missing datetime_set_start: 0 records removed
+Missing length_total_cm: 0 records removed
+Missing greenweight_kg: 1366 records removed
+
+
+#Releases data:
+Missing date_release: 0 records removed
+Missing longitude_release: 0 records removed
+Missing latitude_release: 0 records removed
+Missing LENGTH_CM replaced by CRUISE-SPECIES average for: 0 records
+Add weight estimate for ind. with missing length
+
+#Recaptures data:
+Missing date_release: 0 records removed
+Missing longitude_release: 0 records removed
+Missing latitude_release: 0 records removed
+Missing research_block_release: 0 records removed
+Missing date_recapture: 0 records removed
+Missing longitude_recapture: 0 records removed
+Missing latitude_recapture: 0 records removed
+###Data Processing end###########################
+
